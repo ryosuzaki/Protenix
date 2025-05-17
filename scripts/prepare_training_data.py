@@ -157,7 +157,7 @@ if __name__ == "__main__":
         "--input_path",
         type=Path,
         default=None,
-        help="Path to the input directory containing MMCIF files or a .txt file listing MMCIF file paths.",
+        help="Path to the input directory containing MMCIF files or a .txt file with MMCIF file paths listed line by line.",
     )
     parser.add_argument(
         "-o",
